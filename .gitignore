@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Data & Models (large files, not versioned)
+*.csv
+*.pkl
+*.h5
+*.joblib
+models/
+data/
+*.sqlite3
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+users.json
+
+# Logs & Temporary
+*.log
+*.tmp
+*.bak
+adaptive_feedback.json
+training_log.txt
+training_log.json
